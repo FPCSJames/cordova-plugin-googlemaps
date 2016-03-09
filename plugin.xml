@@ -33,6 +33,7 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="GoogleMaps">
                 <param name="android-package" value="plugin.google.maps.GoogleMaps" />
+                <param name="onload" value="true" />
             </feature>
             <feature name="External">
                 <param name="android-package" value="plugin.google.maps.External" />
@@ -105,6 +106,7 @@
         <config-file target="config.xml" parent="/*">
             <feature name="GoogleMaps">
                 <param name="ios-package" value="GoogleMaps" />
+                <param name="onload" value="true" />
             </feature>
             <feature name="Circle">
                 <param name="ios-package" value="Circle" />
